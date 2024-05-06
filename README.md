@@ -85,32 +85,8 @@ int main()
 ```
 
 ## OUTPUT
-```
-$ ./writer.o 
-Write Data : Helloworld
-Data send is : Helloworld 
+ ![image](https://github.com/ramanpiritha/Linux-IPC-Message-Queues/assets/147084116/ddf2fc3e-1d83-4882-b06e-9ea89828ebaa)
 
-$ ./reader.o 
-Data Received is : Helloworld 
-
-$ ipcs
------- Message Queues --------
-key        msqid      owner      perms      used-bytes   messages    
-0xffffffff 720896     gganesh    666        560          5           
-
------- Shared Memory Segments --------
-key        shmid      owner      perms      bytes      nattch     status      
-0x00000000 262144     gganesh    600        33554432   2          dest         
-0x00000000 360449     gganesh    600        524288     2          dest         
-0x00000000 688130     gganesh    600        524288     2          dest         
-0x00000000 622595     gganesh    600        524288     2          dest         
-0x00000000 786436     gganesh    600        524288     2          dest         
-0x00000000 655365     gganesh    600        524288     2          dest         
-0x00000000 983046     gganesh    600        524288     2          dest         
-
------- Semaphore Arrays --------
-key        semid      owner      perms      nsems    
-```
 
 # RESULT:
 The programs are executed successfully.
